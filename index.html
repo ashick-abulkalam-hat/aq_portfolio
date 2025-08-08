@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AQ's Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm AQ!</h1>
+    <p>Web Developer | Graphic Designer | Tech Enthusiast</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="toggleDarkMode">🌙 Dark Mode</button>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a Software Engineer at Hash Agile Technologies. I specialize in building web applications using modern technologies and love turning complex ideas into simple, usable products. I enjoy mentoring students and freshers in practical software development skills, especially around frontend development, APIs, and deployment.</p>
+    <p>I believe that learning by doing is the best way to grow in tech, and I'm here today to help you take your first real steps into web development.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>College Finder App</h3>
+      <p>A React + Django app that helps students choose engineering colleges based on cutoff ranks.</p>
+    </div>
+    <div class="project-card">
+      <h3>Notes App</h3>
+      <p>Simple notes-taking app using HTML, CSS, and JavaScript. Stores notes in local storage.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p id="responseMessage"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AQ Tech Club. All rights reserved.</p>
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">⬆️</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
